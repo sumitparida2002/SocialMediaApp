@@ -1,0 +1,55 @@
+
+.sidebar{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(115, 113, 113,0.2);
+    padding: 0 12px;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+
+
+.sidebar a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(38, 38,38);
+    line-height: 24px;
+    padding: 12px;
+    margin: 8px 0;
+        
+}
+
+
+
+.sidebar a:hover{
+    background-color: rgba(220,220,220,0.2);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.header1{
+    padding-left: 10px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    width: 200px;
+  
+}
+
+.profile{
+    width: 103px;
+    height: 29px;
+}
+.avatar1{
+    width: 226px;
+    display: flex;
+
+}
+.avatar-img{
+    height: 24px;
+    width: 24px;
+    margin-right: 4px;
+}

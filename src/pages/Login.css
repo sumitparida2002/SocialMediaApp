@@ -1,0 +1,80 @@
+.main-container {
+    margin: 0;
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card1 {
+    background-color: white;
+    height: 40%;
+    width: 250px;
+    margin: 10px;
+    border: 2px solid #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 50px;
+}
+
+.card1 img{
+    margin-bottom: 5px;
+    height: 50px;
+    width: 175px;
+}
+
+.card1 input {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.card1 button {
+    width: 100%;    
+    border: 1px solid #3897f0;
+    color: white;
+    background-color: #3897f0;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 12px;
+    border-radius: 3px;
+
+}
+
+
+.card2{
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    width: 250px;
+    margin: 10px;
+    border: 2px solid #e6e6e6;     
+    padding: 20px 50px;
+    
+}
+
+.card2 a {
+    text-decoration: none;
+    color: #3897f0;
+}
+
+.card-container-signup{
+    margin: 0;
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
